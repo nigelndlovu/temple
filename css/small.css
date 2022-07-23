@@ -1,0 +1,386 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; box-sizing: 
+  border-box; }
+
+/*---------Color Pallete----------*/
+:root {
+  --background-color: #caf7e2ff;
+  --primary-color: #3d3522ff;
+  --secondary-color: #58b09cff;
+  --accent1-color: #4a442dff;
+  --accent2-color: #386150ff;
+}
+
+/*-----------Body------------*/
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "New Tegomin", serif;
+}
+
+/*-----------Banner----------*/
+.banner {
+  grid-column: span 2;
+  background-color: var(--secondary-color);
+  color: white;
+  min-height: 5em;
+  width: 100%;
+  display: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+/*-----------Header-----------*/
+header {
+  padding: .8rem 2%;
+  background-color: var(--accent2-color);
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  margin: 0; 
+  font-weight: normal; 
+}
+
+header figure.logo {
+  float: left;
+  margin: 0 2% 0 0;
+}
+
+.headerdate {
+  color: white;
+  text-align: center;
+  margin-top: 0.4em;
+  width: 100%;
+}
+
+/*----------Navigation----------*/
+nav {
+  background-color: var(--primary-color);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem 0;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav ul li a:hover {
+  background-color: var(--background-color);
+  color: #2474dd;
+  font-weight: bold;
+}
+
+nav ul li.active a {
+  background-color: var(--secondary-color);
+}
+
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+	display: block;
+}
+
+/*-------------Main--------------*/
+
+main {
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+main h1 {
+  margin-left: 0.3em;
+  color: var(--primary-color);
+}
+
+.mainsection {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 2rem 2%;
+  margin: 2rem;
+}
+
+section {
+  border: 1px solid var(--primary-color);
+  margin: 0.3em;
+  padding: 0.6em;
+  min-height: 20em;
+}
+
+.mainsection section:nth-child(4) {
+  display: none;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+}
+
+.hero h2 {
+  position: absolute;
+  margin-left: 2rem;
+  color: var(--background-color);
+  font-size: 3rem;
+}
+
+.hero button {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+}
+
+.hero img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 16px;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  transition: width 1s, height 1s, transform 1s;
+}
+
+button:hover {
+  background-color: var(--accent2-color);
+  cursor: pointer;
+  padding: 2rem;
+  color: #fff;
+  transform: rotate(360deg);
+}
+
+.discoversection {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 2rem 2%;
+}
+
+.discoversection img {
+  width: 95%;
+  transition: 0.2s;
+}
+
+.discoversection img:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+.mainsection-join {
+  display: flex;
+}
+
+.memberb {
+  color: var(--accent1-color);
+  margin: 2em;
+  max-width: 30em;
+  font-family: "New Tegomin", serif;
+  display: none;
+}
+
+.tablecolor {
+  background-color: var(--secondary-color);
+}
+
+table, th, td {
+  border: 1px solid var(--accent1-color);
+  border-collapse: collapse;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.mainsection-join form {
+  border: 1px solid var(--accent1-color);
+  color: var(--accent1-color);
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.mainsection-join form label {
+  display: block;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.mainsection-join form input {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  max-width: 40rem;
+  border-radius: 4px;
+  margin-top: 4px;
+  background-color: var(--background-color);
+}
+
+.mainsection-join select {
+  background-color: var(--background-color);
+}
+
+.mainsection-join textarea {
+  background-color: var(--background-color);
+}
+
+.mainsection-join form input:required {
+  border-left: red solid 6px;
+}
+.mainsection-join form input:required:valid {
+  border-left: blue solid 6px;
+}
+
+.directoryBtns {
+  text-align: center;
+}
+
+#gridbtn {
+  color: white;
+  background-size: 73px 73px;
+  height: 75px;
+  width: 75px;
+}
+  
+#listbtn {
+  color: white;
+  background-size: 73px 73px;
+  height: 75px;
+  width: 75px;
+}
+
+.directoryBtns button{
+  background-color: var(--accent1-color);
+  margin: -2em 1em 2em 1em;
+}
+  
+.directoryBtns button:focus{
+  background-color: var(--secondary-color);
+}
+  
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-gap: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+
+.cards section h2 {
+  padding: 1rem;
+  background-color: var(--accent2-color);
+  color: white;
+  border-radius: 20px;
+}
+  
+.cards section {
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+  
+.cards img {
+  display: none;
+  margin: auto;
+  display: block;
+  background-color: white;
+  width: 70%;
+  height: 200px;
+  box-shadow: 5px 5px 10px var(--primary-color);
+  border-radius: 20px;
+  max-width: 200px;
+}
+
+  
+.cards section a {
+  text-align: center;
+}
+
+/*--------------Footer--------------*/
+
+footer  {
+  padding: .5rem 2%;
+  background-color: var(--accent2-color);
+  text-align: center;
+  color: white;
+}
+
+.wrapper {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signnote  {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.contacts {
+  color: white;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
