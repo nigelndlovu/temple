@@ -219,9 +219,6 @@ picture img[data-src] {
   filter: blur(0.2em);
 }
 
-.mainsection-join {
-  display: flex;
-}
 
 .memberb {
   color: var(--accent1-color);
@@ -243,26 +240,27 @@ table, th, td {
 }
 
 .mainsection-join form {
+  display: block;
   border: 1px solid var(--accent1-color);
   color: var(--accent1-color);
-  padding: 1rem;
+  padding: 10px 5px 10px 0px;
   background-color: var(--secondary-color);
   border-radius: 20px;
-  max-width: 50rem;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .mainsection-join form label {
-  display: block;
+  flex: 1;
   padding-top: 2rem;
   font-size: 1.5rem;
 }
 
 .mainsection-join form input {
-  display: block;
+  flex: 2;
   padding: 1rem;
   width: 100%;
-  max-width: 40rem;
+  margin-left: 20px;
   border-radius: 4px;
   margin-top: 4px;
   background-color: var(--background-color);
@@ -282,33 +280,6 @@ table, th, td {
 .mainsection-join form input:required:valid {
   border-left: blue solid 6px;
 }
-
-.directoryBtns {
-  text-align: center;
-}
-
-#gridbtn {
-  color: white;
-  background-size: 73px 73px;
-  height: 75px;
-  width: 75px;
-}
-  
-#listbtn {
-  color: white;
-  background-size: 73px 73px;
-  height: 75px;
-  width: 75px;
-}
-
-.directoryBtns button{
-  background-color: var(--accent1-color);
-  margin: -2em 1em 2em 1em;
-}
-  
-.directoryBtns button:focus{
-  background-color: var(--secondary-color);
-}
   
 .cards {
   display: grid;
@@ -321,8 +292,6 @@ table, th, td {
 
 .cards section h2 {
   padding: 1rem;
-  background-color: var(--accent2-color);
-  color: white;
   border-radius: 20px;
 }
   
@@ -336,11 +305,10 @@ table, th, td {
   margin: auto;
   display: block;
   background-color: white;
-  width: 70%;
-  height: 200px;
+  width: 100%;
+  height: 250px;
   box-shadow: 5px 5px 10px var(--primary-color);
   border-radius: 20px;
-  max-width: 200px;
 }
 
   

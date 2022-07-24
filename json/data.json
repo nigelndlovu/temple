@@ -1,76 +1,39 @@
 {
-  "details": [
+  "temples": [
     {
-      "name": "Dabane Trust",
-      "address": "13 Cathkin Lane, Burnside, Bulawayo",
-      "phone": "+263 (292) 244775",
-      "member": "NP",
-      "imageurl": "images/dabane.png",
-			"weburl": "http://dabane.org/"
+      "name": "Aba Nigeria Temple",
+      "address": "72-80 Okpu-Umuobo Rd, Aba, Abia State, Nigeria",
+      "phone": "(234) 80-3903-4810",
+      "imageurl": "https://assets.ldscdn.org/b3/1f/b31f8fc3892ce063cfbd0607cd53980290fcc0ae/aba_nigeria_temple_lds.jpeg",
+      "weburl": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng"
     },
     {
-      "name": "Greens Supermarket",
-      "address": "Jason Moyo Street, Bulawayo",
-      "phone": "+263 (292) 886619",
-      "member": "Silver",
-      "imageurl": "images/greens.png",
-			"weburl": "https://greensonline.co.zw/"
+      "name": "Accra Ghana Temple",
+      "address": "Accra Ghana Temple Complex, 57 Independence Ave, North Ridge, P.M.B. CT 209, Cantonments, Accra, Ghana,",
+      "phone": "(233) 302-650-123",
+      "imageurl": "https://assets.ldscdn.org/87/5d/875db78e8219c9c6f476fd0fd88f444b986a0d0f/accra_ghana_temple_lds.jpeg",
+			"weburl": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng"
     },
     {
-      "name": "Datlabs",
-      "address": "45 Falcon Street, Belmont, Bulawayo",
-      "phone": "+263 (292) 470092",
-      "member": "Bronze",
-      "imageurl": "images/datlabs.png",
-			"weburl": "http://datlabs.co.zw/"
+      "name": "Durban South Africa Temple",
+      "address": "2 Izinga Drive, Izinga Ridge, Umhlanga, KwaZulu-Natal, 4021, South Africa",
+      "phone": "(27) 31-140-0240",
+      "imageurl": "https://assets.ldscdn.org/4c/6f/4c6fe7efd4a99ca8c9723d7c31cc3490c417cece/durban_south_africa_temple_exterior.png",
+			"weburl": "https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple?lang=eng"
     },
     {
-      "name": "NUST University",
-      "address": "PO Box AC 939, Ascot, Bulawayo",
-      "phone": "+263 (292) 282842",
-      "member": "Bronze",
-      "imageurl": "images/nust.jpeg",
-			"weburl": "https://www.nust.ac.zw/"
+      "name": "Johannesburg South Africa Temple",
+      "address": "7 Jubilee Rd, Parktown, Johannesburg, 2193, South Africa",
+      "phone": "(27) 11-645-1540",
+      "imageurl": "https://assets.ldscdn.org/3b/bd/3bbdbde3fbd06eb7cd419151b6f91e7ee06c5296/johannesburg_south_africa_temple_lds.jpg",
+			"weburl": "https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple?lang=eng"
     },
     {
-      "name": "First Capital Bank",
-      "address": "Corner First St & Jason Moyo Ave, Harare",
-      "phone": "+263 (242) 250579",
-      "member": "Gold",
-      "imageurl": "images/fcb.jpeg",
-			"weburl": "https://firstcapitalbank.co.zw/"
-    },
-    {
-      "name": "ZimPro",
-      "address": "182 Samora Machel (Corner 8th), Harare",
-      "phone": "+263 (242) 253301",
-      "member": "NP",
-      "imageurl": "images/zimpro.jpeg",
-			"weburl": "https://www.zpt.co.zw/"
-    },
-    {
-      "name": "MASCA",
-      "address": "Masca House, No 2 11th Ave & S Parirenyatwa, Bulawayo",
-      "phone": "+263 (292) 880829",
-      "member": "Gold",
-      "imageurl": "images/masca.png",
-			"weburl": "https://www.masca.healthcare/"
-    },
-    {
-      "name": "Mpilo Hospital",
-      "address": "Vera Rd Mzilikazi, P.O. Box 2096, Bulawayo",
-      "phone": "+263 (292) 212011",
-      "member": "Silver",
-      "imageurl": "images/mpilo.png",
-			"weburl": "http://www.mpilo.org.zw/"
-    },
-    {
-      "name": "Webb Low & Barry",
-      "address": "11 Luton Street, Belmont, Bulawayo",
-      "phone": "+263 (292) 2264481",
-      "member": "Gold",
-      "imageurl": "images/wlb.png",
-			"weburl": "https://webblowbarry.com/"
+      "name": "Kinshasa Democratic Republic of the Congo Temple",
+      "address": "50 Croisement Avenue de l’ OUA / Milolo, Quartier Basoko GB, Commune de Ngaliema, Ville de Kinshasa, Democratic Republic of Congo",
+      "phone": "(243) 815-590-060",
+      "imageurl": "https://assets.ldscdn.org/42/14/42146501acbef3b5be95822a09e31790c0fd9c6e/kinshasa_temple.jpeg",
+			"weburl": "https://www.churchofjesuschrist.org/temples/details/kinshasa-democratic-republic-of-the-congo-temple?lang=eng/"
     }
   ]
 }
